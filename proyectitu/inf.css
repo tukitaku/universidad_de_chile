@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Grandslang roman';
+    src: url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407cfd884bbba461245_GrandSlang%20Roman.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407ad63e87cd8d907ef_GrandSlang%20Roman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;}
+
+    h1 {
+        color:wheat;
+        margin: 250px 0 35px;
+        padding-bottom: 0;
+        font-family: Grandslang roman, sans-serif;
+        font-size: 180px;
+        font-weight: 700;
+        line-height: 44px;
+        margin-left: 50px
+      }
+body{
+        
+    background-color: #333;
+            
+    
+      }
+p{  color:wheat;
+    margin:150px 0 35px ;
+    font-size: 18px;
+    margin-left: 50px;}
+
+    a{text-decoration: none;
+        color:wheat;}
+
+.fila{
+            display: flex;
+            
+          
+            flex-wrap: wrap; /* Para que las columnas se ajusten en dispositivos pequeños */
+          }
+.fila .col
+          {
+            width: 50%;
+            margin: 250px 0 35px;
+            box-sizing: border-box; /* Incluye el padding en el ancho */
+          }
+ .fila .col h3{
+            font-size: 28px;
+            font-family: 'Righteous';
+            margin-bottom: 25px;
+            color: wheat;
+          }
+.fila .col ul{
+            list-style: none;
+           
+            padding-left: 0; 
+          }
+.fila .col ul li{
+            margin: 12px 0;
+          }
+.fila .col ul li strong{
+            display: inline-block;
+            color: wheat;
+            width: 130px;
+          }
+.fila .col ul li span{
+            background-color: wheat;
+            padding: 3px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 50px;
+          }
+.col{
+    margin-left: 50px;
+    margin:150px 0 35px ;
+}
